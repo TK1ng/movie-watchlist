@@ -20,7 +20,7 @@ const MovieList = ({page, onPageUpdate, movieList, onAdd, watchList}) => {
 
     return ( 
         <div className={styles.page}>
-            <h1>Movie Theatre</h1>
+            <h1>Popular Movies</h1>
             <h3>Add a movie to your watchlist</h3>
             <div className={styles.btnContainer}>
                 <button onClick={decrement} disabled={isFirstPage}>&lt; Prev</button>

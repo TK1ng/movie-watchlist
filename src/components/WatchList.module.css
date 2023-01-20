@@ -2,11 +2,10 @@
     display: flex;
     gap: 2.5rem;
     justify-content: center;
-    padding: 3rem;
 }
 
 .listContainer img {
-    width: 160px;
+    width: 90px;
 }
 
 .listContainer h3 {
@@ -23,7 +22,7 @@ h2 {
 .watchListPanel {
     position: sticky;
     top: 0;
-    background-color: var(--dk-bg);
+    background-color: var(--dk-bg);   
     z-index: 1;
 }
 

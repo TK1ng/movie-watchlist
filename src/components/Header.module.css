@@ -1,0 +1,9 @@
+.header {
+    background-color: #544ad9e7;
+    text-align: left;
+    display: flex;
+}
+
+.header h2 {
+    padding: 0;
+}
