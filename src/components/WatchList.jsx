@@ -1,4 +1,3 @@
-import { useMemo } from 'react';
 import MovieCard from './MovieCard';
 import styles from './WatchList.module.css';
 
