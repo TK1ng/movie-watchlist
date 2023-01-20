@@ -1,5 +1,5 @@
 import MovieCard from './MovieCard';
-import styles from './MovieScreen.modules.css'
+import styles from './MovieScreen.module.css'
 
 const MovieList = ({page, onPageUpdate, movieList, onAdd, watchList}) => {
 
@@ -26,7 +26,7 @@ const MovieList = ({page, onPageUpdate, movieList, onAdd, watchList}) => {
         <div className={styles.page}>
             <h1>Movie Theatre</h1>
             <h3>Add a movie to your watchlist</h3>
-            <div className="btnContainer">
+            <div className={styles.btnContainer}>
                 <button onClick={decrement} disabled={isFirstPage}>&lt; Prev</button>
                 <button onClick={increment} disabled={isLastPage}>Next &gt;</button>
             </div>

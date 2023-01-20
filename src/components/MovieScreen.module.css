@@ -1,0 +1,12 @@
+.movieContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2.5rem;
+    z-index: -1;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}

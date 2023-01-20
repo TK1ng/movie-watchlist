@@ -1,0 +1,22 @@
+.listContainer {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.listContainer img {
+    width: 160px;
+}
+
+h2 {
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.watchListPanel {
+    position: sticky;
+    top: 0;
+    background-color: var(--dk-bg);
+    z-index: 1;
+}

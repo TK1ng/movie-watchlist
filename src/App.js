@@ -24,7 +24,7 @@ function App() {
 
   const removeMovie = (movie) => {
     const newState = watchList.filter(m => m.id !== movie.id);
-    setWatchList(...newState)
+    setWatchList(newState)
   }
 
 
