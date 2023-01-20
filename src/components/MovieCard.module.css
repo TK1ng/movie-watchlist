@@ -33,7 +33,11 @@ button {
     transition: var(--transition);
 }
 
-button:hover {
+button:not([disabled]):hover {
     background-color: #544ad9e7;
     transform: scale(1.1);
+}
+
+button:disabled {
+    background-color: #73718bb5;
 }
