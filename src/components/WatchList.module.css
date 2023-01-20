@@ -1,7 +1,7 @@
 .listContainer {
     display: flex;
     gap: 2.5rem;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 3rem;
 }
 
@@ -9,14 +9,26 @@
     width: 160px;
 }
 
+.listContainer h3 {
+    max-width: 10rem;
+}
+
 h2 {
     padding-top: 2rem;
     margin-bottom: 1rem;
 }
+
+
 
 .watchListPanel {
     position: sticky;
     top: 0;
     background-color: var(--dk-bg);
     z-index: 1;
+}
+
+.watchListPanel h3 {
+    max-height: 23px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }

@@ -10,3 +10,7 @@
     gap: 1.5rem;
     justify-content: center;
 }
+
+.page {
+    padding: 4rem;
+}

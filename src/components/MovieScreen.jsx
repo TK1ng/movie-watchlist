@@ -33,6 +33,10 @@ const MovieList = ({page, onPageUpdate, movieList, onAdd, watchList}) => {
             <div className={styles.movieContainer}>
                 {movieDisplay}
             </div>
+            <div className={styles.btnContainer}>
+                <button onClick={decrement} disabled={isFirstPage}>&lt; Prev</button>
+                <button onClick={increment} disabled={isLastPage}>Next &gt;</button>
+            </div>
         </div>
      );
 }
