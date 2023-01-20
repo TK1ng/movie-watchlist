@@ -11,15 +11,11 @@ const MovieList = ({page, onPageUpdate, movieList, onAdd, watchList}) => {
     const isLastPage = page === movieList.length ? true : false;
     
     const decrement = () => {
-        onPageUpdate(() => {
-            return page -= 1;
-        })
+        onPageUpdate(p => p - 1)
     }
     
     const increment = () => {
-        onPageUpdate(() => {
-            return page += 1;
-        })
+        onPageUpdate(p => p + 1)
     }
 
     return ( 
