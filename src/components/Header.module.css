@@ -1,7 +1,11 @@
 .header {
-    background-color: #544ad9e7;
-    text-align: left;
+    background: rgb(84,74,217);
+    background: linear-gradient(0deg, rgba(84,74,217,1) 0%, rgba(115,107,218,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
+    opacity: 0.8;
+    padding:  1rem 1.5rem;
+    text-align: left;
 }
 
 .header h2 {
